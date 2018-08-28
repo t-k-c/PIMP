@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/thePurple</item>
+        <item name="colorPrimaryDark">@color/thePurple</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- custom edittext view for login / sign up-->
+    <style name="LoginSignupEditText" parent="@style/Widget.AppCompat.EditText">
+        <!--<item name="textColor">@android:color/white</item>-->
+        <!--<item name="android:centerMedium">true</item>-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

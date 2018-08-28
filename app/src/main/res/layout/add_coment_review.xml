@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_margin="10dp">
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:minHeight="35dp"
+            android:hint="Your comment here"
+            android:paddingLeft="10dp"
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="end">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/thePurple"
+            android:text=" Comment"
+            android:drawableLeft="@drawable/ic_comment"
+            android:drawableStart="@drawable/ic_comment"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="right|end"
+            />
+
+    </LinearLayout>
+</LinearLayout>
